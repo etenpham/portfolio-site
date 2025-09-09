@@ -198,6 +198,9 @@ function Content() {
 
       <Section id="linkedin" title="LinkedIn Profile" badge="05" classes="bg-success text-success-content">
         <div className="flex flex-wrap items-center gap-4">
+        <a href="https://www.linkedin.com/in/ethanpham04/"
+              target="_blank"
+              rel="noreferrer">
           <img
             src="/assets/Linedin Profile Pictures.png"
             alt="LinkedIn profile headshot"
@@ -206,19 +209,8 @@ function Content() {
               e.currentTarget.style.display = 'none'
             }}
           />
-          <div className="join">
-            <a
-              className="btn join-item btn-primary"
-              href="https://www.linkedin.com/in/ethanpham04/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open LinkedIn
-            </a>
-            <a className="btn join-item" href="mailto:you@example.com">
-              Contact
-            </a>
-          </div>
+        </a>
+          
         </div>
       </Section>
 
